@@ -13,24 +13,26 @@ def main():
     seq = []
     seq.append(int(number))
     #print(f"{number}")
-
-    while number != 1:
-        if (int(number) % 2) == 0:
-            # print(f"{int(number) / 2}")
-            number = int(number) / 2
-            seq.append(int(number))
-        else:
+    if int(number) >= 1 and int(number) <= 100:
+        while number != 1:
+            if (int(number) % 2) == 0:
+                # print(f"{int(number) / 2}")
+                number = int(number) / 2
+                seq.append(int(number))
+            else:
             # print(f"{3 * (int(number)) + 1}")
-            number = 3 * (int(number)) + 1
-            seq.append(int(number))
+                number = 3 * (int(number)) + 1
+                seq.append(int(number))
 
-    print(f"seq: {seq}")
-    print(f"Max: {max(seq)}")
-    print(f"Steps: {len(seq)}")
+        print(f"seq: {seq}")
+        print(f"Max: {max(seq)}")
+        print(f"Steps: {len(seq)}")
 
-    plt.plot(seq)
-    plt.ylabel("Problem Collatza")
-    plt.show()
+        plt.plot(seq)
+        plt.ylabel("Problem Collatza")
+        plt.show()
+    else:
+        print(f"Zła wartość: [1-100] -> {number}")
 
 if __name__ == "__main__":
     main()
