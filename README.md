@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Napisz program do obsługi ładowarki paczek. Po uruchomieniu, aplikacja pyta ile paczek chcesz wysłać, a następnie wymaga podania wagi dla każdej z nich.
 
 Na koniec działania program powinien wyświetlić w podsumowaniu:
@@ -64,4 +63,4 @@ W ten sam sposób obliczamy kolejne wyrazy ciągu, aż pojawi się liczba 1.
 
 Napisz program, który wypisze długość ciągu Collatza dla podanego ze standardowego wejścia x.
 X może przyjmować wartości od 1 do 100.
->>>>>>> 1909661600a6fa5357988e83228d56e64eda1afd
+
