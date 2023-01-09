@@ -36,7 +36,7 @@ Na koniec działania program powinien wyświetlić w podsumowaniu:
 
 ## Podsumowanie:
 
-### Wysłano 2 paczki (3+6+5, 8+2+3)
+### Wysłano 2 paczki (3+6+5, 8+2+4)
 ### Wysłano 27 kg
 ### Suma pustych kilogramów: 13kg
 ### Najwięcej pustych kilogramów ma paczka 2 (7kg)
